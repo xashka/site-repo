@@ -4,17 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Контакты</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-
 </head>
 
-<body class="styled">
+<body>
     <ul class="menu">
         <li><a href="index.html">Главная</a></li>
         <li><a href="catalog.html">Каталог товаров</a></li>
     </ul>
     <h1>Контактные данные</h1><br>
     <br>
+    Мы находимся по адресу: Россия, Москва, Кремль. <br><br>
+    <iframe src="https://yandex.ru/map-widget/v1/-/CBRGQVsOpB" width="560" height="400" frameborder="1" allowfullscreen="true"></iframe><br>
+    <h3>Форма обратной связи</h3>
+    <form action="#">
+    Ваше имя:<input type="text" placeholder="Ваше имя" size="50" required><br>
+    E-mail адрес:<input type="text" placeholder="электронный адрес" size="48" required><br>
+    Телефон для связи: <input type="text" placeholder="+7(xxx)xxxxxxx" size="40" required><br>
+    Причина обращения:<br>
+    Претензия <input type="radio" name="причина"><br>
+    Предложение <input type="radio" name="причина"><br>
+    Обратная связь <input type="radio" name="причина" checked><br>
+    Другое <input type="radio" name="причина"><br> 
+    Тема сообщения:<input type="text" size="45"><br>
+    Текст сообщения:<br>
+    <textarea name="текст сообщения" id="" cols="65" rows="20"></textarea><br>
+    <input type="submit" value="Отправить сообщение">
+    <input type="reset" value="Очистить"> <br>
+    </form>
+
     <!-- Нижняя часть страницы -->
     <hr>
     <br>
