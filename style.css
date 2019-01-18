@@ -14,6 +14,5 @@
 #long{
     color: #484343; font-size: 16px; font-weight: 400; line-height: 24px; text-align: left;
 }
-
-
+.type>li{color: darkgreen; font-size: 20px; font-weight: inherit; line-height: inherit; text-align: center; list-style-type: georgian}
 
