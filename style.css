@@ -1,8 +1,13 @@
 .styled {
-    background-color: #f8f8f8}
+    background-color: #f8f8f8
+}
 .menu   {
     color: cadetblue; font-family: monospace; font-size: 15px; font-style: oblique; font-weight: bold; text-align:50px 50px;
     list-style-type: none
 }
+ h3{
+    color: black; font-size: 18px; font-weight: 400; background: #eaeaea;
+}
+
 
 
