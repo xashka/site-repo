@@ -23,3 +23,9 @@ input{
 .textbox, .message{
     color: blueviolet; font-size: 14px; font-family: "Arial", serif, 
 }
+a:hover{
+    color: red
+}
+a:visited:hover{
+    color: darkgreen
+}
