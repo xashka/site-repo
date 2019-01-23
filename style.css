@@ -30,6 +30,7 @@ a:visited:hover{
     color: darkgreen
 }
 .logo {
+    background-image: url(image/lovoo-rcm1200x627u.png);
     height: 100px;
     float: left;
 margin: auto
@@ -38,13 +39,6 @@ header {
 display: flex;
 justify-content: space-between;
     position: relative;
-}
-.input>placeholder="электронный адрес" {
-background-color: red;
-}
-
-.input:nth-of-type(2) {
-background-color: blue;
 }
 
 input[type="email"]:focus {
@@ -61,4 +55,10 @@ table{
 }
 td{
     border: 1px solid #000
+}
+.card{
+    outline: 4px solid #18FFE2;
+}
+.card: hover {
+outline: none;
 }
