@@ -21,11 +21,39 @@ input{
     width: 300px; height: 40px;
 }
 .textbox, .message{
-    color: blueviolet; font-size: 14px; font-family: "Arial", serif, 
+    color: blueviolet; font-size: 14px; font-family: "Arial"; 
 }
 a:hover{
     color: red
 }
 a:visited:hover{
     color: darkgreen
+}
+.logo {
+    height: 100px;
+    float: left;
+margin: auto
+}
+header {
+display: flex;
+justify-content: space-between;
+    position: relative;
+}
+.input>placeholder="электронный адрес" {
+background-color: red;
+}
+
+.input:nth-of-type(2) {
+background-color: blue;
+}
+input[type="text"]{
+    text-transform: capitalize
+}
+table{
+    border: 1px solid #000;
+        width: 400px;
+            height: 300px
+}
+td{
+    border: 1px solid #000
 }
