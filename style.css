@@ -46,7 +46,12 @@ background-color: red;
 .input:nth-of-type(2) {
 background-color: blue;
 }
-input[type="text"]{
+
+input[type="email"]:focus {
+    color: red; background-color: rosybrown
+} 
+
+input, textarea{
     text-transform: capitalize
 }
 table{
