@@ -62,3 +62,12 @@ td{
 .card: hover {
 outline: none;
 }
+.meta>p {
+    font-family: Arial, Helvetica, sans-serif; /* Гарнитура шрифта основного текста */
+    font-size: 90%; /* Размер шрифта */
+   }
+   .meta>p:first-letter {
+    font-family: "Times New Roman", Times, serif; /* Гарнитура шрифта первой буквы */
+    font-size: 200%; /* Размер шрифта первого символа */
+    color: red; /* Красный цвет текста */
+   }
