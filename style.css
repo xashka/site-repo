@@ -127,3 +127,11 @@ img.card {
     color: red;
     /* Красный цвет текста */
 }
+.footer{
+    height: 90px;
+    background-color: cornflowerblue;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    padding-right: 50px
+}
