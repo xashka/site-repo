@@ -163,3 +163,14 @@ td {
 .money{
     float: left
 }
+.buyer {
+    color: #B784A7; 
+	background: #FFA500; 
+	padding: 5px; 
+	border-radius: 5px;
+	border: 2px solid #FF8247;
+	} 
+	.buyer:hover { 
+	background: #FF6347; 
+	}
+}
