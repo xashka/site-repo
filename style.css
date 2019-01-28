@@ -111,6 +111,20 @@ td {
 .carding:hover {
     outline: none;
 }
+.albuming {
+    outline: 4px solid brown;
+}
+
+.albuming:hover {
+    outline: none;
+}
+.moneying {
+    outline: 4px solid pink;
+}
+
+.moneying:hover {
+    outline: none;
+}
 
 .meta > p {
     font-family: Arial, Helvetica, sans-serif;
