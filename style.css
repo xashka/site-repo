@@ -104,11 +104,11 @@ td {
     border: 1px solid #000
 }
 
-img.card {
+.carding {
     outline: 4px solid #18FFE2;
 }
 
-.a.card:hover {
+.carding:hover {
     outline: none;
 }
 
