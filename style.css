@@ -8,7 +8,6 @@
     font-size: 15px;
     font-style: oblique;
     font-weight: bold;
-    text-align: 50px 50px;
     list-style-type: none
 }
 
@@ -64,17 +63,21 @@ a:visited:hover {
     color: darkgreen
 }
 
+.container{
+    width: 700px;
+        margin: 0 auto
+}
 .logo {
     background-image: url(image/lovoo-rcm1200x627u.png);
-    height: 100px;
+    height: 70px;
+    width: auto;
     float: left;
-    margin: auto
+    margin-left: auto
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+    height: 200px;
+    background: #FF1493;
 }
 
 input[type="email"]:focus {
