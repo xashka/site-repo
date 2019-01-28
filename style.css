@@ -26,7 +26,11 @@ h3 {
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
+    padding: 50px;
+    
+
 }
+
 
 #long {
     color: #484343;
@@ -104,25 +108,25 @@ td {
     border: 1px solid #000
 }
 
-.carding {
+.card {
     outline: 4px solid #18FFE2;
 }
 
-.carding:hover {
+.card:hover {
     outline: none;
 }
-.albuming {
+.album {
     outline: 4px solid brown;
 }
 
-.albuming:hover {
+.album:hover {
     outline: none;
 }
-.moneying {
+.money {
     outline: 4px solid pink;
 }
 
-.moneying:hover {
+.money:hover {
     outline: none;
 }
 
@@ -148,4 +152,14 @@ td {
     margin-top: 10px;
     margin-right: 20px;
     padding-right: 50px
+}
+
+.card {
+    float: left; 
+}
+.album {
+    float: left
+}
+.money{
+    float: left
 }
