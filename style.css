@@ -3,7 +3,7 @@
 }
 
 .menu {
-    color: cadetblue;
+    color: whitesmoke;
     font-family: monospace;
     font-size: 15px;
     font-style: oblique;
@@ -41,7 +41,7 @@ h3 {
 }
 
 .type > li {
-    color: darkgreen;
+    color: darkcyan;
     font-size: 20px;
     font-weight: inherit;
     line-height: inherit;
@@ -83,11 +83,12 @@ a:visited:hover {
     margin-top: 10px;
 }
 
-header {
-    height: 200px;
-    background: #FF1493;
-    background-image: url(image/fon.png)
+.header {
+    background-image: url(image/fon.jpg); 
+background-repeat: repeat-x;
+      background-size: auto;
 }
+
 
 input[type="email"]:focus {
     color: red;
