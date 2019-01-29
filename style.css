@@ -72,7 +72,8 @@ a:visited:hover {
 
 .container{
     width: 700px;
-        margin: 0 auto
+        margin: 0 auto;
+    background-image: url()
 }
 .logo {
     background-image: url(image/lovoo-rcm1200x627u.png);
@@ -173,4 +174,13 @@ td {
 	.buyer:hover { 
 	background: #FF6347; 
 	}
+.div catalog{
+   width: 200px;
+    height: 200px;
+    margin-right: 15px;
+    float: left
+}
+product{
+    float: left;
+    
 }
