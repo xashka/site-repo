@@ -3,13 +3,15 @@
 }
 
 .menu {
-    color: cadetblue;
+    color: whitesmoke;
     font-family: monospace;
     font-size: 15px;
     font-style: oblique;
     font-weight: bold;
-    text-align: 50px 50px;
-    list-style-type: none
+    list-style-type: none;
+    margin-right: 30px;
+    padding: 30px;
+    text-align: right
 }
 
 h3 {
@@ -24,7 +26,11 @@ h3 {
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
+    padding: 50px;
+    
+
 }
+
 
 #long {
     color: #484343;
@@ -35,7 +41,7 @@ h3 {
 }
 
 .type > li {
-    color: darkgreen;
+    color: darkcyan;
     font-size: 20px;
     font-weight: inherit;
     line-height: inherit;
@@ -64,18 +70,25 @@ a:visited:hover {
     color: darkgreen
 }
 
+.container{
+    width: 700px;
+        margin: 0 auto;
+}
 .logo {
     background-image: url(image/lovoo-rcm1200x627u.png);
-    height: 100px;
+    height: 70px;
+    width: auto;
     float: left;
-    margin: auto
+    margin-left: 30px;
+    margin-top: 10px;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+.header {
+    background-image: url(image/fon.jpg); 
+background-repeat: repeat-x;
+      background-size: auto;
 }
+
 
 input[type="email"]:focus {
     color: red;
@@ -97,11 +110,25 @@ td {
     border: 1px solid #000
 }
 
-img.card {
+.card {
     outline: 4px solid #18FFE2;
 }
 
-.a.card:hover {
+.card:hover {
+    outline: none;
+}
+.album {
+    outline: 4px solid brown;
+}
+
+.album:hover {
+    outline: none;
+}
+.money {
+    outline: 4px solid pink;
+}
+
+.money:hover {
     outline: none;
 }
 
@@ -120,3 +147,42 @@ img.card {
     color: red;
     /* Красный цвет текста */
 }
+.footer{
+    height: 90px;
+    background-color: cornflowerblue;
+    text-align: right;
+    margin-top: 300px;
+    margin-right: 20px;
+    padding-right: 50px
+}
+
+.card {
+    float: left; 
+}
+.album {
+    float: left
+}
+.money{
+    float: left
+}
+.buyer {
+    color: #B784A7; 
+	background: #FFA500; 
+	padding: 5px; 
+	border-radius: 5px;
+	border: 2px solid #FF8247;
+	} 
+	.buyer:hover { 
+	background: #FF6347; 
+	}
+.product{
+   display: inline-block; /*Задаем блочно-строчное отображение*/
+  width: 400px; /*задаем ширину блока*/
+    float: left
+}
+.catalog{
+    width: auto;
+    height: 200px;
+    
+}
+
