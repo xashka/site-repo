@@ -151,9 +151,11 @@ td {
     height: 90px;
     background-color: cornflowerblue;
     text-align: right;
-    margin-top: 300px;
+    margin-top: 30px;
     margin-right: 20px;
-    padding-right: 50px
+    padding-right: 50px;
+    bottom: auto
+
 }
 
 .card {
@@ -178,11 +180,12 @@ td {
 .product{
    display: inline-block; /*Задаем блочно-строчное отображение*/
   width: 400px; /*задаем ширину блока*/
-    float: left
+    margin-bottom: 200px;
 }
 .catalog{
     width: auto;
-    height: 200px;
+    height: 400px;
+  
     
 }
 
