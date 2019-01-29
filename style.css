@@ -73,7 +73,6 @@ a:visited:hover {
 .container{
     width: 700px;
         margin: 0 auto;
-    background-image: url()
 }
 .logo {
     background-image: url(image/lovoo-rcm1200x627u.png);
@@ -87,6 +86,7 @@ a:visited:hover {
 header {
     height: 200px;
     background: #FF1493;
+    background-image: url(image/fon.png)
 }
 
 input[type="email"]:focus {
@@ -150,7 +150,7 @@ td {
     height: 90px;
     background-color: cornflowerblue;
     text-align: right;
-    margin-top: 10px;
+    margin-top: 300px;
     margin-right: 20px;
     padding-right: 50px
 }
@@ -174,13 +174,14 @@ td {
 	.buyer:hover { 
 	background: #FF6347; 
 	}
-.div catalog{
-   width: 200px;
-    height: 200px;
-    margin-right: 15px;
+.product{
+   display: inline-block; /*Задаем блочно-строчное отображение*/
+  width: 400px; /*задаем ширину блока*/
     float: left
 }
-product{
-    float: left;
+.catalog{
+    width: auto;
+    height: 200px;
     
 }
+
