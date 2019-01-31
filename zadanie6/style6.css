@@ -1,0 +1,42 @@
+.contaner{
+    width: 1366px;
+}
+.header{
+    height: 800px;
+    background: url(img/slider-img.png);
+}
+.logotip{
+    width: 185px;
+    height: 22px;
+    margin-top: 63px;
+    margin-left: 98px;
+}
+.menu{
+    list-style-type: none;
+    float: right;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: right;
+    margin-top: 67px;
+    margin-right: 211px;
+}
+.menu li{
+height: 10px;
+display: inline-block
+}
+.menu:hover{
+color: #212121;
+font-family: "Montserrat - Bold";
+font-weight: 700;
+letter-spacing: 1.4px;
+}
+/*посмотреть код для ссылки*/
+.slider_content{
+    margin-top: 373px;
+    margin-right: 98px;    
+    background: black;
+    
+}
