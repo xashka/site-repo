@@ -1,0 +1,600 @@
+/* Мастер начало */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-psd {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+/*--------------------- Мастер конец ---------------------*/
+/*--------------------- Шапка начало ---------------------*/
+.header {
+    height: 800px;
+    background-image: url(../img/slider-img.jpg);
+}
+
+.logo {
+    margin-top: 63px;
+    margin-left: 98px;
+}
+
+/*Шапка контакты*/
+.header-contacts {
+    background-color: #f5f5f5;
+    width: 1366px;
+    height: 360px;
+}
+
+.header-contacts h1 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    text-align: left;
+    margin-top: 170px;
+    margin-left: 100px;
+}
+
+/*Шапка Детали продукта*/
+.header-product{
+    background-color: #ffffff;
+    height: 120px;
+    width: 100%;
+}
+
+.header-product-deails {
+    background-color: #f4f4f4;
+    height: 70px;
+    list-style-type: none;
+    padding-left: 340px;
+}
+
+.header-product-deails li {
+    list-style-type: none;
+}
+
+.header-product-deails a {
+    padding-top: 23px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-decoration: none;
+    display: block;
+    float: left;
+    color: #6c6c6c;
+    font-size: 17.99px;
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0006);
+    height: 120px;
+
+}
+
+.header-product-deails a:hover {
+    color: #212121;
+    text-decoration: none;
+}
+
+/* Меню начало*/ 
+.menu {
+    list-style-type: none;
+    float: right;
+    margin-top: 50px;
+    margin-right: 140px;
+}
+
+.menu li {
+    display: inline-block;
+    float: left;
+}
+
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    display: block;
+    padding: 0 17px;
+}
+
+.menu li a:hover {
+    color: #212121;
+    border-bottom: 2px;
+    border-bottom-color: #212121;
+    border-bottom-style: solid;
+}
+/* Меню конец */
+
+/*--------------------- Contacts начало ---------------------*/
+
+.contacts {
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+
+.location{
+    margin-right: -15px;
+margin-left: -15px;
+}
+.contacts .col-md-4 {
+    margin: 15px;
+    width: 28%;
+    height: 370px;
+    border-width: 1px;
+    border-color: #9c9c9c;
+    border-style: solid;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+
+.contacts img {
+    margin-top: 48px;
+}
+
+.contacts h3 {
+    font-family: Montserrat;
+    color: #212121;
+    font-size: 21.91px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    transform: scaleX(1.0041);
+    margin: 0;
+    margin-top: 30px;
+}
+
+.contacts h4 {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.082px;
+    text-align: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.contacts p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.082px;
+    text-align: center;
+    margin: 0;
+}
+
+.contacts h5 {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20.082px;
+    text-align: center;
+    transform: scaleX(1.0041);
+    margin: 0;
+}
+
+/*--------------------- Contacts конец ---------------------*/
+/*--------------------- Products начало ---------------------*/
+.product-line-1 {
+    margin-left: 107px;
+    margin-top: 70px;
+    max-width: 1200px;
+
+}
+
+.product-line-1-menu {
+    margin-left: 15px;
+    list-style-type: none;
+    height: 35px;
+}
+
+.product-line-1-menu li {
+    display: inline-block;
+    float: left;
+}
+
+.product-line-1-menu li > a {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    display: block;
+    padding: 0 10px;
+    padding-bottom: 10PX;
+    border-bottom: 2px;
+    border-bottom-color: #6c6c6c;
+    border-bottom-style: solid;
+    text-align: left;
+    padding-right: 30px;
+    padding-left: 3px;
+}
+
+.product-line-1-menu li > a:hover {
+    color: #212121;
+    border-bottom: 2px;
+    border-bottom-color: #212121;
+    border-bottom-style: solid;
+}
+
+.product-line-1-menu-no-border li > a {
+    border: none;
+}
+
+.product-line-1-menu-no-border li > a:hover {
+    border: none;
+}
+
+.product-greed {
+    padding-top: 50px;
+    clear: both;
+    float: left;
+    margin: 15px;
+}
+.block{
+    margin-right: -15px;
+margin-left: -15px;
+}
+
+.repeat {
+    clear: both;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+}
+.exclusive{
+    margin-top: 105px;
+    height: 683px;
+}
+
+.exclusive h3 {
+    color: #1e88e5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin-top: 228px;
+    margin-left: 51px;
+}
+
+.exclusive h1 {
+    margin-top: 18px;
+    margin-left: 51px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.exclusive p {
+    margin-top: 24px;
+    color: #6c6c6c;
+    font-size: 13.99px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    transform: scaleY(1.0022);
+    width: 374px;
+    margin-top: 24px;
+    margin-left: 51px;
+}
+
+.exclusive a {
+    display: block;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 212px;
+    height: 45px;
+    border-radius: 22px;
+    margin-top: 34px;
+    margin-left: 51px;
+}
+
+.exclusive a:hover {
+    background-image: url(img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 173px 16px;
+}
+
+.exclusive a:active {
+    box-shadow: none;
+}
+
+.exclusive-1 {
+    float: left;
+    width: 683px;
+    height: 683px;
+    background-image: url(img/promo-img1.png);
+}
+
+.exclusive-2 {
+    float: left;
+    width: 683px;
+    height: 683px;
+    background-image: url(img/promo-img.png);
+}
+
+
+/*--------------------- Products конец ---------------------*/
+/*--------------------- Product details начало ---------------------*/
+.c_p_line1 {
+    clear: both;
+    width: 1200px;
+    height: 750px;
+}
+.col-md-6{
+    width: 600px;
+}
+
+.product-details-img img{
+    vertical-align: middle
+}
+.product-details-img p {
+    text-align: center;
+}
+
+.product-details-img a:hover {
+    opacity: 0.3;
+    background-color: #ffffff;
+}
+
+.product-details-content {
+    margin-left: 56px;
+    padding-top: 50px;
+}
+
+.Fishnet-Chair {
+    color: #212121;
+    font-size: 35.98px;
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0005);
+}
+
+.Hot-Deal {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    transform: scaleY(1.0005);
+}
+
+.price {
+    margin-top: 36px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+}
+
+.price b {
+    color: #212121;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: center;
+    transform: scaleY(1.0005);
+}
+
+.product-details-content a {
+    display: block;
+    color: #ffffff;
+    font-size: 21.99px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2.5px;
+    background-color: #f44336;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 510px;
+    height: 71px;
+    border-radius: 70px;
+    padding-top: 25px;
+    margin-top: 30px;
+}
+
+.product-details-content a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-image: url(../img/arrow-white.png);
+    background-repeat: no-repeat;
+    background-position: 334px 25px;
+}
+
+.product-details-content a:active {
+    box-shadow: none;
+}
+
+.product-deails-content-text {
+    margin-top: 50px;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+    transform: scaleY(1.0005);
+}
+
+
+/*  Line 2*/
+.trending-products {
+    margin-top: 120px;
+    margin-left: 107px;
+    height: 40px;
+}
+
+.trending-products p {
+    display: block;
+    float: left;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.trending-products a{
+text-decoration: none;
+letter-spacing: 2.5px;
+display: block;
+width: 240px;
+float: right;
+color: #212121;
+font-size: 18px;
+font-weight: 700;
+text-align: center;
+margin-top: 16px;
+margin-right: 100px;
+}
+
+.trending-products a:hover {
+    background-image: url(img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: 210px 5px;
+    text-decoration: none;
+}
+
+.trending-products-content {
+    clear: both;
+    margin-left: 85px;
+    margin-top: 63px;
+    height: 600px;
+}
+
+.trending-products-content img {
+    margin: 15px;
+}
+
+
+/*--------------------- Product details конец ---------------------*/
+/*--------------------- footer начало ---------------------*/
+
+.virtual-footer {
+    height: 384px;
+}
+
+footer {
+    clear: both;
+    height: 384px;
+    background-color: #f7f7f7;
+    width: 1366px;
+    margin: 0 auto;
+    margin-top: -384px;
+}
+
+.footer-blok-1 {
+    float: left;
+    margin-top: 80px;
+    margin-left: 99px;
+    width: 330px;
+}
+
+.FB2-line1-6 {
+    display: inline-block;
+    width: 155px;
+}
+
+.footer-blok-1 a{
+    color: #212121;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: left;
+}
+    
+}
+footer h4 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+footer p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+}
+
+
+.email-form {
+    border-width: 1px;
+    border-color: #d9dee1;
+    border-style: solid;
+    background-color: #ffffff;
+    width: 368px;
+    height: 46px;
+
+}
+
+input[type="email"] {
+    border: none;
+    outline: none;
+    width: 310px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 19px;
+    height: 43px;
+}
+
+.email-form input[type="submit"] {
+    border: none;
+    background: url(img/submit.png) no-repeat 50% 50%;
+    width: 21px;
+    height: 17px;
+    vertical-align: middle;
+    height: 46px;
+}
+
+.footer-line2 {
+    clear: both;
+    margin-left: 100px;
+}
+
+.footer-line21 {
+    float: left;
+    width: 400px;
+    display: inline-block;
+    margin-top: 70px;
+}
+
+.footer-line22 {
+    display: inline-block;
+    float: inherit;
+    margin-top: 70px;
+    margin-left: 156px;
+}
+
+.footer-line23 {
+    float: right;
+    width: 400px;
+    margin-top: 70px;
+}
+
+/* footer конец */
